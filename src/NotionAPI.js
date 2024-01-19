@@ -1,4 +1,4 @@
-const NOTION_API_KEY = 'secret_tlK6bouIxVZe2gcIFLjEU8rZAPFBnW8rfCP24LrJwVM';
+const NOTION_API_KEY = 'API';
 const NOTION_DATABASE_ID = 'your-database-id';
 
 async function fetchData() {

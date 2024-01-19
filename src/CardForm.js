@@ -24,7 +24,6 @@ function CardForm({ addCard }) {
     addCard(title, subtitle, textOrientation, emoji);
     setTitle('');
     setSubtitle('');
-    setTextOrientation('landscape'); // Reset to default
   };
 
   // Function to fetch data from Notion

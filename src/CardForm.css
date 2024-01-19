@@ -20,11 +20,12 @@
     /* Adjust the position as needed */
 }
 
-.card-form button {
-    background-color: #007bff;
+.card-form button:not(.EmojiPickerReact button) {
+    background-color: #0f3beb;
     color: white;
     border: none;
 }
+
 .card-form button:hover {
     background-color: #0056b3;
 }
@@ -33,3 +34,8 @@
         display: none;
     }
 }
+:root .EmojiPickerReact {
+    --epr-bg-color: #FFFFFF; /* or any color you want */
+    --epr-category-label-bg-color: #FFFFFF; /* should be same as the background */
+  }
+  

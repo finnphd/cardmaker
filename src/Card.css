@@ -1,0 +1,35 @@
+
+.title {
+    font-size: 1.4em;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-size: 1em;
+    color: #666;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 240px;
+    height: 336px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    
+}
+
+.card-content {
+    width: 100%;
+    height: 100%;
+}
+
+.content-landscape {
+    transform: rotate(90deg);
+    transform-origin: center center;
+    position: absolute;
+    width: 336px;
+    height: 240px;
+    top: 42px; /* Adjust the positioning as needed */
+    left:  -57px; /* Adjust the positioning as needed */
+}

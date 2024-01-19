@@ -1,0 +1,18 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 3 columns */
+    grid-auto-rows: minmax(350px, auto); /* Height to accommodate cards */
+    grid-gap: 10px;
+    width: 11in; /* Width of landscape page */
+    height: 8.5in; /* Height of landscape page */
+    padding: 10px; /* Adjust as needed */
+    box-sizing: border-box; /* Includes padding in size calculation */
+}
+
+.card-wrapper {
+    position: relative;
+    width: 250px; 
+    height: 350px; 
+    padding: 10px;
+    box-sizing: border-box;
+}

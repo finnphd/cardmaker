@@ -1,0 +1,35 @@
+.card-form {
+    position: fixed; /* You can also use 'absolute' depending on your preference */
+    top: 0; /* Adjust the top position as needed */
+    right: 0; /* Adjust the right position as needed */
+    padding: 20px; /* Adjust padding as needed */
+    background-color: #fff; /* Background color for the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional box shadow */
+    z-index: 1000; /* Ensure it's on top of other content */
+  }
+.card-form input, .card-form select, .card-form button {
+    margin: 0 10px;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.emoji-picker-container {
+    position: absolute;
+    z-index: 10;
+    /* Adjust the position as needed */
+}
+
+.card-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+.card-form button:hover {
+    background-color: #0056b3;
+}
+@media print {
+    .card-form {
+        display: none;
+    }
+}
